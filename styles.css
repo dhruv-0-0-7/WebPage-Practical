@@ -1,0 +1,242 @@
+/* Global */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+    --brand-blue-color: #2874f0;
+    --brand-light-grey: #f1f3f6;
+}
+
+.clickable:hover,
+.product:hover {
+    cursor: pointer;
+}
+
+.theme-button-blue {
+    background-color: var(--brand-blue-color);
+    border: none;
+    color: white;
+    font-weight: bolder;
+    width: 90px;
+    padding: 10px 5px;
+}
+
+.title {
+    font-size: 22px;
+}
+
+body {
+    background-color: var(--brand-light-grey);
+}
+
+/* Header/Navbar */
+
+main {
+    background-color: var(--brand-blue-color);
+}
+
+main nav {
+    width: 60%;
+    height: 7vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main nav div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#flipkart-logo {
+    width: 15%;
+}
+
+#navigate button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 5px;
+    justify-content: center;
+    padding: 8px 2px;
+    background: none;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+#navigate button:nth-child(1) {
+    width: 150px;
+    background-color: white;
+    color: var(--brand-blue-color);
+}
+
+#navigate button img {
+    width: 18px;
+    height: 18px;
+}
+
+nav .container {
+    column-gap: 10px;
+}
+
+#searchbar input {
+    width: 30em;
+    height: 2em;
+    font-size: 15px;
+    padding: 8px 10px;
+    font-weight: 400;
+    border: none;
+    border-style: none;
+}
+
+#searchbar img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    right: 30px;
+}
+
+#navigate {
+    column-gap: 40px;
+}
+
+/* Categories */
+
+#categories-section {
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: white;
+    box-shadow: 0.2px 0.2px 0.1px 0.2px black;
+}
+
+#categories-section .container {
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.category div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    align-items: center;
+}
+
+.category div img {
+    width: 15px;
+}
+
+.category img {
+    width: 5vw;
+}
+
+/* Deals Section */
+
+#with-ad-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 5px;
+    align-items: center;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#deals-section {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+
+#deals-section .container1,
+#without-ad-container .container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+    background-color: white;
+    padding: 0 20px;
+}
+
+#deals-section .container2,
+#without-ad-container .container2 {
+    display: flex;
+    flex-direction: row;
+    height: 22vh;
+    padding: 0 20px;
+    background-color: white;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    row-gap: 10px;
+    align-items: center;
+    font-size: 12px;
+}
+
+.product img {
+    width: 70%;
+    min-height: 60%;
+}
+
+.product div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 2.5px;
+}
+
+.product p:nth-of-type(1) {
+    font-weight: bolder;
+}
+
+.product p:nth-of-type(2) {
+    color: green;
+}
+
+.product p:nth-of-type(3) {
+    color: darkgrey;
+}
+
+#promotion {
+    width: 15%;
+}
+
+#promotion img {
+    width: 100%;
+}
+
+/* Electronics */
+
+#without-ad-container {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
