@@ -11,7 +11,8 @@
 }
 
 .clickable:hover,
-.product:hover {
+.product:hover,
+.category:hover {
     cursor: pointer;
 }
 
@@ -149,6 +150,12 @@ nav .container {
 
 .category img {
     width: 5vw;
+}
+
+#more-category img {
+    background-color: var(--brand-light-grey);
+    border-radius: 50%;
+    width: 40px;
 }
 
 /* Deals Section */
